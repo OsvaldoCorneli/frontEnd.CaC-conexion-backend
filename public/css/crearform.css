@@ -1,6 +1,6 @@
 #crear{
-    padding: 0 0 30px 15px;
-    width: 40%;
+    padding: 0 15px 30px 15px;
+    
 
 }
 
@@ -16,4 +16,28 @@
     display: none;
     margin: 0 0 0 5px;
     color: red;
+}
+
+
+@media(min-width: 760px){
+
+    #crear{
+        padding: 0 0 30px 15px;
+        width: 75%;
+    
+    }
+
+
+
+
+}
+
+@media(min-width: 1000px){
+
+    #crear{
+        padding: 0 0 30px 15px;
+        width: 40%;
+    
+    }
+
 }
