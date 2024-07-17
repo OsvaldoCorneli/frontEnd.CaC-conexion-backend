@@ -39,7 +39,7 @@
                 if(element.id == id){
                         document.querySelector("#exampleModalLabel").textContent = element.name
                         document.querySelector(".modal-body").innerText = element.description
-                        document.querySelector("#wikiModal").href = element.wikilink
+                        document.querySelector("#wikiModal").href = element.wikiLink
                 }
             })
             boton.click()

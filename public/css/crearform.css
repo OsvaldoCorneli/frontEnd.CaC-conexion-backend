@@ -1,0 +1,19 @@
+#crear{
+    padding: 0 0 30px 15px;
+    width: 40%;
+
+}
+
+#crear label{
+    color: white;
+}
+
+#crear textarea{
+    height: 150px;
+}
+
+.erroresCreate{
+    display: none;
+    margin: 0 0 0 5px;
+    color: red;
+}
