@@ -1,0 +1,27 @@
+#imagenPelicula{ 
+
+width: 100%;
+
+}
+
+
+@media(min-width: 768px){
+
+    #imagenPelicula{
+        width: 75%;
+    }
+
+
+
+}
+
+
+@media(min-width: 1200px){
+
+    #imagenPelicula{
+        width: 50%;
+    }
+
+
+
+}

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyecto para el programa Codo a Codo Front-end Cine Argentino">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Cine Argentino</title>
+</head>
+
+<body class="bg-dark">
+  
+    <nav class="navbar navbar-expand-md navbar-light bg-dark bg-gradient fixed-top">
+        <div class="container-fluid">
+          <h1 class="navbar-brand text-white me-lg-5">Cine Argentino</h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white mx-lg-4" style="cursor: pointer" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white mx-lg-4" style="cursor: pointer" href="./peliculas.html">Peliculas</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white mx-lg-4"  href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Actores
+                </a>
+                <ul class="dropdown-menu bg-dark bg-gradient" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item text-white my-2" style="cursor: pointer" href="./actrices.html">Actrices</a></li>
+                  <li><a class="dropdown-item text-white my-2" style="cursor: pointer" href="./actores.html">Actores</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-white my-lg-2" style="cursor: pointer" href="./directores.html">Directores</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" style="cursor: pointer" href="./clasicas.html">Clasicas</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-secondary text-white" type="submit">Buscar</button>
+            </form>
+            <a class="nav-link text-white" id="botonLogin" style="cursor: pointer">Iniciar sesion</a>
+          </div>
+        </div>
+      </nav>
+
+
+      <h4 class="text-white mt-5 p-3 mb-2 bg-dark " id="actores" >Peliculas clasicas</h4>
+
+<article>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <!-- ---------------------------- -->
+    <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
+      <img src="./public/clasicas/lafuga.jpg" class="card-img-top" alt="lafuga">
+      <div class="card-body">
+        <h5 class="card-title">La fuga</h5>
+        <p class="card-text">Esta película de suspenso 
+          psicológico narra la historia de un hombre que huye de la justicia tras cometer un 
+          asesinato. Es considerada una de las obras maestras del cine argentino temprano.</p>
+      </div>
+      <ul class="list-group list-group-flush bg-secondary">
+        <li class="list-group-item bg-secondary text-white">Director: Leopoldo Torre Nilsson</li>
+        <li class="list-group-item bg-secondary text-white">Año: 1937</li>
+      </ul>
+      <div class="card-body text-center bg-secondary">
+        <a class="mx-4" href="https://www.youtube.com/watch?v=psFFDTZ0YPc" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
+        <a class="mx-4" href="https://es.wikipedia.org/wiki/La_fuga_(pel%C3%ADcula_de_1937)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
+      </div>
+    </div>
+    <!-- ---------------------------------------------------------------------------- -->
+    <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
+      <img src="./public/clasicas/latregua.jpg" class="card-img-top" alt="latregua">
+      <div class="card-body">
+        <h5 class="card-title">La tregua</h5>
+        <p class="card-text">Basada en la novela homónima de Mario Benedetti, 
+          esta película dramática narra la historia de un hombre que regresa 
+          a su ciudad natal tras pasar varios años en un campo de concentración 
+          durante la Segunda Guerra Mundial. Es una de las películas más aclamadas 
+          del cine argentino y una obra maestra del cine latinoamericano</p>
+      </div>
+      <ul class="list-group list-group-flush bg-secondary">
+        <li class="list-group-item bg-secondary text-white">Director: Sergio Renán</li>
+        <li class="list-group-item bg-secondary text-white">Año: 1974</li>
+      </ul>
+      <div class="card-body text-center bg-secondary">
+        <a class="mx-4" href="https://www.youtube.com/watch?v=zH7-iVQ1yKI" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
+        <a class="mx-4" href="https://es.wikipedia.org/wiki/La_tregua_(pel%C3%ADcula_de_1974)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
+      </div>
+    </div>
+    <!-- ---------------------------------------------------------------------------- -->
+    <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
+      <img src="./public/clasicas/lacasaesgrande.jpg" class="card-img-top" alt="lacasaesgrande">
+      <div class="card-body">
+        <h5 class="card-title">La casa grande</h5>
+        <p class="card-text">Un hombre soltero y trabajador que vive con su madre en una vieja casa familiar sueña con reunir a toda la familia. La película explora las relaciones familiares, la nostalgia y el paso del tiempo.</p>
+      </div>
+      <ul class="list-group list-group-flush bg-secondary">
+        <li class="list-group-item bg-secondary text-white">Director: Leo Fleider</li>
+        <li class="list-group-item bg-secondary text-white">Año: 1953</li>
+      </ul>
+      <div  class="card-body text-center bg-secondary">
+        <a class="mx-4" href="https://www.youtube.com/watch?v=4YplflAsIlE" class="card-link"><i class="fa-brands fa-youtube"></i></a>
+        <a class="mx-4" href="https://es.wikipedia.org/wiki/La_casa_grande_(pel%C3%ADcula_de_1953)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
+      </div>
+    </div>
+    <!-- ---------------------------------------------------------------------------- -->
+    <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
+      <img src="./public/clasicas/camila.jpg" class="card-img-top" alt="camila">
+      <div class="card-body">
+        <h5 class="card-title">Camila</h5>
+        <p class="card-text">Esta película biográfica narra la historia de Camila Perri, una joven aristócrata 
+          argentina que se enamora de un sacerdote durante la época de la Revolución de Mayo. Es una de las películas 
+          más importantes del cine feminista argentino y una obra maestra del cine latinoamericano..</p>
+      </div>
+      <ul class="list-group list-group-flush bg-secondary">
+        <li class="list-group-item bg-secondary text-white">Director: María Luisa Bemberg</li>
+        <li class="list-group-item bg-secondary text-white">Año: 1984</li>
+      </ul>
+      <div  class="card-body text-center bg-secondary">
+        <a class="mx-4" href="https://www.youtube.com/watch?v=Ge64KyTfH8c" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
+        <a class="mx-4" href="https://es.wikipedia.org/wiki/Camila_(pel%C3%ADcula)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
+      </div>
+    </div>
+    <!-- ---------------------------------------------------------------------------- -->
+    <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
+      <img src="./public/clasicas/cronicadeunniniosolo.jpg" class="card-img-top" alt="camila">
+      <div class="card-body">
+        <h5 class="card-title">Crónica de un niño solo</h5>
+        <p class="card-text">Pablo, un niño de 10 años, vive con su madre viuda en un pequeño pueblo de la provincia de Buenos Aires. Su padre los abandonó cuando él era pequeño, y Pablo se refugia en su mundo de fantasía para escapar de la soledad y la tristeza.</p>
+      </div>
+      <ul class="list-group list-group-flush bg-secondary">
+        <li class="list-group-item bg-secondary text-white">Director:  Leonardo Favio</li>
+        <li class="list-group-item bg-secondary text-white">Año: 1965</li>
+      </ul>
+      <div  class="card-body text-center bg-secondary">
+        <a class="mx-4" href="https://www.youtube.com/watch?v=Z2efc6kNHnU" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
+        <a class="mx-4" href="https://es.wikipedia.org/wiki/Cr%C3%B3nica_de_un_ni%C3%B1o_solo" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
+      </div>
+    </div>
+    <!-- ---------------------------------------------------------------------------- -->
+    <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
+      <img src="./public/clasicas/elsecretodesusojos.jpg" class="card-img-top" alt="camila">
+      <div class="card-body">
+        <h5 class="card-title">El Secreto de Sus Ojos</h5>
+        <p class="card-text">Benjamín Espósito, un jubilado legalmente ciego, escribe una novela sobre un crimen sin resolver que obsesionó a lo largo de su carrera. A medida que rememora el caso, se ve envuelto en una búsqueda de la verdad y la justicia.</p>
+      </div>
+      <ul class="list-group list-group-flush bg-secondary">
+        <li class="list-group-item bg-secondary text-white">Director: Juan José Campanella</li>
+        <li class="list-group-item bg-secondary text-white">Año: 2009</li>
+      </ul>
+      <div  class="card-body text-center bg-secondary">
+        <a class="mx-4" href="https://www.youtube.com/watch?v=hKa8U-8vsfU" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
+        <a class="mx-4" href="https://es.wikipedia.org/wiki/El_secreto_de_sus_ojos" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
+      </div>
+    </div>
+    <!-- ---------------------------------------------------------------------------- -->
+    <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
+      <img src="./public/clasicas/relatossalvajes.jpg" class="card-img-top" alt="camila">
+      <div class="card-body">
+        <h5 class="card-title">Relatos Salvajes</h5>
+        <p class="card-text"> Seis historias independientes exploran el lado oscuro de la naturaleza humana, mostrando la violencia, la corrupción y la hipocresía que se esconden en la sociedad argentina.</p>
+      </div>
+      <ul class="list-group list-group-flush bg-secondary">
+        <li class="list-group-item bg-secondary text-white">Director: Damián Szifron</li>
+        <li class="list-group-item bg-secondary text-white">Año: 2015</li>
+      </ul>
+      <div  class="card-body text-center bg-secondary">
+        <a class="mx-4" href="https://www.youtube.com/watch?v=3BxE9osMt5U" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
+        <a class="mx-4" href="https://es.wikipedia.org/wiki/Relatos_salvajes" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
+      </div>
+    </div>
+    <!-- ---------------------------------------------------------------------------- -->
+    <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
+      <img src="./public/clasicas/nuevereinas.jpg" class="card-img-top" alt="camila">
+      <div class="card-body">
+        <h5 class="card-title">Nueve Reinas</h5>
+        <p class="card-text">Juan, un estafador de poca monta, conoce a Marcos, un hombre misterioso con un plan para realizar un gran golpe. Juntos, se embarcan en una arriesgada aventura llena de engaños y traiciones.</p>
+      </div>
+      <ul class="list-group list-group-flush bg-secondary">
+        <li class="list-group-item bg-secondary text-white">Director: Fabián Bielinsky</li>
+        <li class="list-group-item bg-secondary text-white">Año: 2000</li>
+      </ul>
+      <div  class="card-body text-center bg-secondary">
+        <a class="mx-4" href="https://www.youtube.com/watch?v=O2D3rXfNjWw" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
+        <a class="mx-4" href="https://es.wikipedia.org/wiki/Nueve_reinas" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
+      </div>
+    </div>
+    <!-- ---------------------------------------------------------------------------- -->
+    <div class="card m-2 bg-secondary text-white" style="width: 20rem;">
+      <img src="./public/clasicas/esperandoalacarroza.jpg" class="card-img-top" alt="camila">
+      <div class="card-body">
+        <h5 class="card-title">Esperando a la Carroza</h5>
+        <p class="card-text">La familia Musicelli está reunida para celebrar la Navidad cuando reciben la noticia de que Laura, una de las hermanas, ha desaparecido. La búsqueda de Laura se convierte en una comedia caótica y llena de personajes excéntricos.</p>
+      </div>
+      <ul class="list-group list-group-flush bg-secondary">
+        <li class="list-group-item bg-secondary text-white">Director: María Luisa Bemberg</li>
+        <li class="list-group-item bg-secondary text-white">Año: 1985</li>
+      </ul>
+      <div  class="card-body text-center bg-secondary">
+        <a class="mx-4" href="https://www.youtube.com/watch?v=xqYPyvbZk6I" target="_blank" class="card-link"><i class="fa-brands fa-youtube"></i></a>
+        <a class="mx-4" href="https://es.wikipedia.org/wiki/Esperando_la_carroza_(pel%C3%ADcula)" target="_blank" class="card-link"><i class="fa-brands fa-wikipedia-w"></i></a>
+      </div>
+    </div>
+    <!-- ---------------------------------------------------------------------------- -->
+    
+
+  </div>
+</div>  
+</article>
+
+
+<!-- Modal -->
+<div class="modal fade  bg-black" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+   <div class="modal-content">
+    <form class="w-100 p-5">
+      <fieldset>
+          <div class="row">
+              <legend class="col-11">Iniciar Sesión</legend>
+              <button type="button" class="btn-close bg-black col-1" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          
+          <div class="mb-3">
+              <label for="emailInput" class="form-label">Email: </label>
+              <span class="errores text-danger" id="error-email">Mensaje de error</span>
+              <input type="text" id="emailInput" class="form-control" placeholder="Ingresar email" name="email">
+          </div>
+          <div class="mb-3">
+              <label for="passwordInput" class="form-label">Contraseña: </label>
+              <span id="error-password" class="errores text-danger">Mensaje de error</span>
+              <input type="password" id="passwordInput" class="form-control" placeholder="Ingresar contraseña" name="password">
+          </div>
+          <div class="mb-3">
+              <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
+                  <label class="form-check-label" for="disabledFieldsetCheck">
+                      Recordarme
+                  </label>
+              </div>
+          </div>
+          <button type="submit" class="btn btn-primary mb-2 d-flex justify-content-center" id="botonIngresar">Iniciar Sesión</button>
+      </fieldset>
+      <a href="./registro.html" class="text-center">Crear una cuenta</a>
+  </form>
+    </div>
+  </div>
+</div> 
+
+      <!-- form  -->
+
+<footer class="container-fluid p-5 text-white text-center bg-black">
+          
+  <p>Este proyecto es parte del curso "Codo a Codo" y tiene fines educativos y de práctica. Se ha realizado con el propósito de aprender y mejorar habilidades en desarrollo web.</p>
+  <p>Por favor, ten en cuenta que algunas imágenes y recursos utilizados en este proyecto pueden ser propiedad de terceros y se utilizan únicamente con fines ilustrativos y didácticos. Se ha hecho un esfuerzo por respetar los derechos de autor y proporcionar atribuciones cuando corresponda.</p>
+  <p>Las referencias a sitios web externos se proporcionan con el propósito de complementar la información y no constituyen un respaldo o afiliación. No nos hacemos responsables por el contenido de sitios externos enlazados.</p>
+  <p>Si eres propietario de algún contenido utilizado en este proyecto y deseas que sea retirado o modificado, por favor contáctanos de inmediato y tomaremos las medidas necesarias.</p>
+  <!-- <a href="https://www.linkedin.com/in/osvaldo-corneli-nassif-822728268/" target="_blank">linkedIn</a><br> -->
+  <p>&copy; 2024 Osvaldo Matias Corneli Nassif / Todos los derechos reservados</p>
+  
+</footer>
+
+
+<script src="./informacion.js"></script>
+<script src="./public/script/login.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+
+
+
+
+
+</html>
